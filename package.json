@@ -1,21 +1,27 @@
 {
-  "name": "welcome-completing-assignments",
+  "name": "git-basics-lab",
   "version": "1.0.0",
-  "description": "## Introduction",
-  "main": "index.js",
+  "description": "## Objectives 1. Practice your GitHub command line skills 2. Create a remote repository on GitHub and connect it with a local folder",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/learn-co-curriculum/welcome-completing-assignments.git"
+    "url": "git+https://github.com/learn-co-curriculum/git-remote-code-along.git"
   },
-  "author": "maxwellbenton <maxwellbenton@gmail.com>",
+  "keywords": [
+    "git",
+    "lab"
+  ],
+  "author": "flatiron school",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/welcome-completing-assignments/issues"
+    "url": "https://github.com/learn-co-curriculum/git-remote-code-along/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/welcome-completing-assignments#readme",
+  "homepage": "https://github.com/learn-co-curriculum/git-remote-code-along#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "expect": "^1.20.2",
